@@ -1,5 +1,7 @@
 # My Vim Setup
 
+![Screenshot](https://raw.githubusercontent.com/ldmcdaniel/.vim/master/images/screenshot.png)]
+
 ## How to install:
 
 Clone the repo:
