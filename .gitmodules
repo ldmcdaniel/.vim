@@ -1,0 +1,30 @@
+[submodule "pack/plugins/start/vim-airline"]
+	path = pack/plugins/start/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "pack/plugins/start/ale"]
+	path = pack/plugins/start/ale
+	url = https://github.com/w0rp/ale
+[submodule "pack/plugins/start/nerdcommenter"]
+	path = pack/plugins/start/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
+[submodule "pack/plugins/start/vim-fugitive"]
+	path = pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/plugins/start/vim-gitgutter"]
+	path = pack/plugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/plugins/start/youcompleteme"]
+	path = pack/plugins/start/youcompleteme
+	url = https://github.com/valloric/youcompleteme
+[submodule "pack/plugins/opt/vim-atom-dark"]
+	path = pack/plugins/opt/vim-atom-dark
+	url = https://github.com/gosukiwi/vim-atom-dark
+[submodule "pack/plugins/start/vim-jsdoc"]
+	path = pack/plugins/start/vim-jsdoc
+	url = https://github.com/heavenshell/vim-jsdoc
+[submodule "pack/plugins/opt/vim-jsx"]
+	path = pack/plugins/start/vim-jsx
+	url = https://github.com/mxw/vim-jsx
+[submodule "pack/plugins/start/indentline"]
+	path = pack/plugins/start/indentline
+	url = https://github.com/yggdroot/indentline
