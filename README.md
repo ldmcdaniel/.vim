@@ -10,6 +10,11 @@ cd ~/
 git clone https://github.com/ldmcdaniel/.vim
 ```
 
+Install Vim 8:
+```bash
+brew install vim --with-override-system-vi
+```
+
 Fix symbolic link to ~/.vimrc:
 ```bash
 unlink ~/.vimrc
