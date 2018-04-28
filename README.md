@@ -10,6 +10,13 @@ cd ~/
 git clone https://github.com/ldmcdaniel/.vim
 ```
 
+Fix symbolic link to ~/.vimrc:
+```bash
+unlink ~/.vimrc
+unlink ~/.vim
+ln -s ~/.vim/.vimrc ~/.vimrc
+```
+
 Enter the interactive installation menu:
 ```bash
 ~/dotfiles/menu.sh
