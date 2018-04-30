@@ -1,57 +1,76 @@
 [submodule "pack/plugins/start/vim-airline"]
 	path = pack/plugins/start/vim-airline
 	url = https://github.com/bling/vim-airline
+    ignore = dirty
 [submodule "pack/plugins/start/ale"]
 	path = pack/plugins/start/ale
 	url = https://github.com/w0rp/ale
+    ignore = dirty
 [submodule "pack/plugins/start/nerdcommenter"]
 	path = pack/plugins/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
+    ignore = dirty
 [submodule "pack/plugins/start/vim-fugitive"]
 	path = pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+    ignore = dirty
 [submodule "pack/plugins/start/vim-gitgutter"]
 	path = pack/plugins/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+    ignore = dirty
 [submodule "pack/plugins/start/youcompleteme"]
 	path = pack/plugins/start/youcompleteme
 	url = https://github.com/valloric/youcompleteme
+    ignore = dirty
 [submodule "pack/plugins/opt/vim-atom-dark"]
 	path = pack/plugins/opt/vim-atom-dark
 	url = https://github.com/gosukiwi/vim-atom-dark
+    ignore = dirty
 [submodule "pack/plugins/start/vim-jsdoc"]
 	path = pack/plugins/start/vim-jsdoc
 	url = https://github.com/heavenshell/vim-jsdoc
+    ignore = dirty
 [submodule "pack/plugins/opt/vim-jsx"]
 	path = pack/plugins/start/vim-jsx
 	url = https://github.com/mxw/vim-jsx
+    ignore = dirty
 [submodule "pack/plugins/start/indentline"]
 	path = pack/plugins/start/indentline
 	url = https://github.com/yggdroot/indentline
+    ignore = dirty
 [submodule "pack/plugins/start/auto-pairs"]
 	path = pack/plugins/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
+    ignore = dirty
 [submodule "pack/plugins/start/vim-css-color"]
 	path = pack/plugins/start/vim-css-color
 	url = https://github.com/ap/vim-css-color
+    ignore = dirty
 [submodule "pack/plugins/start/vim-surround"]
 	path = pack/plugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround
+    ignore = dirty
 [submodule "pack/plugins/start/emmet-vim"]
 	path = pack/plugins/start/emmet-vim
 	url = https://github.com/mattn/emmet-vim
+    ignore = dirty
 [submodule "pack/plugins/start/matchtagalways"]
 	path = pack/plugins/start/matchtagalways
 	url = https://github.com/valloric/matchtagalways
+    ignore = dirty
 [submodule "pack/plugins/start/vim-better-whitespace"]
 	path = pack/plugins/start/vim-better-whitespace
 	url = https://github.com/ntpeters/vim-better-whitespace
+    ignore = dirty
 [submodule "pack/plugins/start/vim-multiple-cursors"]
 	path = pack/plugins/start/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors
+    ignore = dirty
 [submodule "pack/plugins/start/vim-sass-lint"]
 	path = pack/plugins/start/vim-sass-lint
 	url = https://github.com/gcorne/vim-sass-lint
+    ignore = dirty
 [submodule "pack/plugins/start/vim-vue"]
 	path = pack/plugins/start/vim-vue
 	url = https://github.com/posva/vim-vue
+    ignore = dirty
