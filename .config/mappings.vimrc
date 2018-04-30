@@ -12,3 +12,5 @@ nnoremap <leader>f :Ack
 nnoremap <leader>v <C-w>v<C-w>l
 "Open a horizontal split and switch over to it
 nnoremap <leader>h <C-w>s<C-w>j
+"Open the buffer list and preface with :b
+nnoremap <Leader>b :ls<CR>:b
