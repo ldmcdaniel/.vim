@@ -84,11 +84,9 @@ python -m pip install flake8
   * [vim-pug](https://github.com/digitaltoad/vim-pug)
   * [vim-sensible](https://github.com/tpope/vim-sensible)
 
-## Cloning this repo will install these linters:
-  * [Pyflakes](https://pypi.python.org/pypi/pyflakes)
-  * [pycodestyle](https://github.com/PyCQA/pycodestyle)
-  * [Pug-Lint](https://github.com/pugjs/pug-lint)
-  * [jshint](http://jshint.com/install/)
+## Cloning this repo will install offer to install these linters:
+  * [esLint](https://eslint.org/docs/user-guide/getting-started)
+  * [flak8](http://flake8.pycqa.org/en/latest/)
   * [html-tidy](http://www.html-tidy.org/)
   * [sass-lint](https://github.com/sasstools/sass-lint#ide-integration)
 

@@ -34,9 +34,27 @@ while true; do
   esac
 done
 while true; do
+  read -p "Do you want to install flake8?" flake
+  case $flake in
+    [Yy]* ) python -m pip install flake8;
+      break;;
+    [Nn]* ) echo "Okay ;)"; break;;
+    * ) echo "Please answer yes or no.";;
+  esac
+done
+while true; do
+  read -p "Do you want to install eslint?" esl
+  case $esl in
+    [Yy]* ) npm install -g eslint;
+      break;;
+    [Nn]* ) echo "Okay ;)"; break;;
+    * ) echo "Please answer yes or no.";;
+  esac
+done
+while true; do
   read -p "Do you want to install sass-lint?" sass
   case $sass in
-    [Yy]* ) npm install -g sass-lint
+    [Yy]* ) npm install -g sass-lint;
       break;;
     [Nn]* ) echo "Okay ;)"; break;;
     * ) echo "Please answer yes or no.";;
