@@ -6,6 +6,4 @@ let g:netrw_liststyle = 3
 
 " sort is affecting only: directories on the top, files below
 let g:netrw_sort_sequence = '[\/]$,*'
-let g:netrw_winsize = 25
 
-let g:netrw_browse_split = 0
