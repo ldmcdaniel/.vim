@@ -62,6 +62,7 @@ python -m pip install flake8
   * [indentline](https://github.com/yggdroot/indentline)
   * [matchtagalways](https://github.com/valloric/matchtagalways)
   * [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
+  * [nerdtree](https://github.com/scrooloose/nerdtree)
   * [vim-airline](https://github.com/bling/vim-airline)
   * [vim-atom-dark](https://github.com/ap/vim-css-colo://github.com/gosukiwi/vim-atom-dark)
   * [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace)
@@ -79,7 +80,6 @@ python -m pip install flake8
 ## Here are some more plugins that I have used previously:
   * [ack](https://github.com/mileszs/ack.vim)
   * [ctrlp](https://github.com/kien/ctrlp.vim)
-  * [nerdtree](https://github.com/scrooloose/nerdtree)
   * [vim-jade](https://github.com/digitaltoad/vim-jade)
   * [vim-pug](https://github.com/digitaltoad/vim-pug)
   * [vim-sensible](https://github.com/tpope/vim-sensible)
