@@ -74,3 +74,6 @@
 	path = pack/plugins/start/vim-vue
 	url = https://github.com/posva/vim-vue
     ignore = dirty
+[submodule "pack/plugins/start/nerdtree"]
+	path = pack/plugins/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree
