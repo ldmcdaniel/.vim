@@ -1,5 +1,7 @@
+let g:airline_detect_spelllang=0
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#ale#enabled = 1
+let g:airline#extensions#branch#displayed_head_limit = 10
 let g:airline#extensions#branch#format = 1
 let g:airline#extensions#hunks#enabled = 0
 let g:airline#extensions#virtualenv#enabled = 0
