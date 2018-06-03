@@ -3,6 +3,7 @@ set autoread                    "Reload files changed outside of vim
 set autowrite                   "Write the old file out when switching between files.
 set background=dark             "Sets a dark background
 set backspace=indent,eol,start  "Allow backspace in insert mode
+set conceallevel=0              "Sets JSON and markdown files to not hide characters
 set cursorline                  "show visual line under the cursor's current line
 set expandtab                   "Pressing the <TAB> key will always insert 'softtabstop' amount of characters
 set fillchars+=vert:\           "Remove the characters from the vertical split
