@@ -5,6 +5,7 @@ source ~/.vim/.config/emmet.vimrc
 source ~/.vim/.config/folding.vimrc
 source ~/.vim/.config/general.vimrc
 "source ~/.vim/.config/indents.vimrc
+source ~/.vim/.config/indentLine.vimrc
 source ~/.vim/.config/mappings.vimrc
 source ~/.vim/.config/nerdtree.vimrc
 source ~/.vim/.config/netrw.vimrc
