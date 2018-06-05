@@ -1,5 +1,6 @@
 let g:user_emmet_settings = {
-\   'javascript': {
+\   'javascript.jsx': {
 \       'extends': 'jsx',
 \   },
 \}
+
