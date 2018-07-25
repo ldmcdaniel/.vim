@@ -73,3 +73,15 @@
 [submodule "pack/plugins/start/nerdtree"]
 	path = pack/plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+[submodule "pack/plugins/start/deoplete.nvim"]
+	path = pack/plugins/start/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim
+[submodule "pack/plugins/start/vim-hug-neovim-rpc"]
+	path = pack/plugins/start/vim-hug-neovim-rpc
+	url = https://github.com/roxma/vim-hug-neovim-rpc
+[submodule "pack/plugins/start/nvim-yarp"]
+	path = pack/plugins/start/nvim-yarp
+	url = https://github.com/roxma/nvim-yarp
+[submodule "pack/plugins/start/ultisnips"]
+	path = pack/plugins/start/ultisnips
+	url = https://github.com/SirVer/ultisnips
