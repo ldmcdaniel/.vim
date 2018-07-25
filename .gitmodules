@@ -18,10 +18,6 @@
 	path = pack/plugins/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
     ignore = dirty
-[submodule "pack/plugins/start/youcompleteme"]
-	path = pack/plugins/start/youcompleteme
-	url = https://github.com/valloric/youcompleteme
-    ignore = dirty
 [submodule "pack/plugins/opt/vim-atom-dark"]
 	path = pack/plugins/opt/vim-atom-dark
 	url = https://github.com/gosukiwi/vim-atom-dark
