@@ -1,7 +1,56 @@
 snippet cl "console.log"
-console.log("$1", $1);
+console.log("$1: ", $1);
 endsnippet
 
 snippet rdiv "react div"
 <div className="$1">$2</div>
 endsnippet	
+
+snippet iR
+import React from 'react'; // eslint-disable-line
+import PropTypes from 'prop-types';
+endsnippet
+
+snippet class
+import React from 'react'; // eslint-disable-line
+import PropTypes from 'prop-types';
+
+class $1 extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {};
+	}
+
+	render() {
+		return (
+			$0
+		);
+	}
+}
+
+$1.propTypes = {
+};
+
+export default $1
+endsnippet
+
+snippet router
+import React from 'react'; // eslint-disable-line
+import { Router, Route } from 'react-router';
+import history from '../history';
+
+class $1 extends React.Component {
+	render() {
+		return (
+			<Router history={history}>
+			</Router>
+		)
+	}
+}
+
+export default $1;
+endsnippet
+
+snippet route
+<Route path="/$1" component={$2} />$0
+endsnippet
