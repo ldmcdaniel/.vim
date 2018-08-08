@@ -6,12 +6,12 @@ snippet rdiv "react div"
 <div className="$1">$2</div>
 endsnippet	
 
-snippet iR
+snippet iR "Import React"
 import React from 'react'; // eslint-disable-line
 import PropTypes from 'prop-types';
 endsnippet
 
-snippet class
+snippet class "React Class"
 import React from 'react'; // eslint-disable-line
 import PropTypes from 'prop-types';
 
@@ -34,7 +34,7 @@ $1.propTypes = {
 export default $1
 endsnippet
 
-snippet router
+snippet router "React Router"
 import React from 'react'; // eslint-disable-line
 import { Router, Route } from 'react-router';
 import history from '../history';
@@ -51,6 +51,53 @@ class $1 extends React.Component {
 export default $1;
 endsnippet
 
-snippet route
+snippet route "React Route"
 <Route path="/$1" component={$2} />$0
+endsnippet
+
+snippet testreducer "React Reducer Test"
+describe("$1", () => {
+
+	it("Should $2", () => {
+		// define starting state
+		const startingState = {$3};
+
+		// define action
+		const myAction = {
+			type: $4,
+		};
+		
+		// pass the starting state and action into the reducer to get the result
+		const result = $5;
+		
+		// assert the value of the output is as expected
+		assert.deepEqual(result, {
+			$6
+		});
+		
+		// assert that the initial state was not mutated
+		assert.notDeepEqual(result, startingState);
+	});
+
+	it("Should $7", () => {
+		// define starting state
+		const startingState = {$8};
+
+		// define action
+		const myAction = {
+			type: $9,
+		};
+		
+		// pass the starting state and action into the reducer to get the result
+		const result = audience(startingState, myAction);
+		
+		// assert the value of the output is as expected
+		assert.deepEqual(result, {
+			$10
+		});
+		
+		// assert that the initial state was not mutated
+		assert.notDeepEqual(result, startingState);
+	});
+});
 endsnippet
