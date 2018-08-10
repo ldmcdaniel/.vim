@@ -56,6 +56,8 @@ snippet route "React Route"
 endsnippet
 
 snippet testreducer "React Reducer Test"
+import assert from 'assert';
+
 describe("$1", () => {
 
 	it("Should $2", () => {
@@ -100,4 +102,33 @@ describe("$1", () => {
 		assert.notDeepEqual(result, startingState);
 	});
 });
+endsnippet
+
+snippet reducer "React Reducer"
+const startingState = {$1};
+
+export default function $2(startingState, action) {
+	switch (action.type) {
+		case $3:
+			return $4;$0
+		default:
+			return state;
+	}
+}
+endsnippet
+
+snippet switch "Switch Statement"
+switch($1) {
+	case $2:
+		$3;
+		break;$4
+	default:
+		$5
+}
+endsnippet
+
+snippet case "Switch case"
+case $1:
+	$2;
+	break;
 endsnippet
