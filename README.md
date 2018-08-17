@@ -59,6 +59,7 @@ python -m pip install flake8
 ## Cloning this repo will install the following Vim packages:
   * [ale](https://github.com/w0rp/ale)
   * [auto-pairs](https://github.com/jiangmiao/auto-pairs)
+  * [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
   * [deoplete](https://github.com/Shougo/deoplete.nvim)
   * [emmet-vim](https://github.com/mattn/emmet-vim)
   * [indentline](https://github.com/yggdroot/indentline)

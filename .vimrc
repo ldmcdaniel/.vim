@@ -1,5 +1,6 @@
 source ~/.vim/.config/airline.vimrc
 source ~/.vim/.config/ale.vimrc
+source ~/.vim/.config/ctrlp.vimrc
 source ~/.vim/.config/deoplete.vimrc
 source ~/.vim/.config/emma.vimrc
 source ~/.vim/.config/emmet.vimrc
