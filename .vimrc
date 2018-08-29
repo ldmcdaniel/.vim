@@ -15,6 +15,4 @@ source ~/.vim/.config/ultisnips.vimrc
 
 if has('gui_running')
   source ~/.vim/.config/gui.vimrc
-else
-    colorscheme atom-dark-256
 endif

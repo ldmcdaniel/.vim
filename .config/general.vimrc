@@ -1,7 +1,7 @@
 set autoindent                  "Copy the indentation from the previous line when starting a new line
 set autoread                    "Reload files changed outside of vim
 set autowrite                   "Write the old file out when switching between files.
-set background=dark             "Sets a dark background
+set background=light             "Sets a light background
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set conceallevel=0              "Sets JSON and markdown files to not hide characters
 set cursorline                  "show visual line under the cursor's current line
