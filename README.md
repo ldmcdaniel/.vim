@@ -69,7 +69,6 @@ python -m pip install flake8
   * [nvim-yarp](https://github.com/roxma/nvim-yarp) //Needed for deoplete
   * [ultisnips](https://github.com/SirVer/ultisnips)
   * [vim-airline](https://github.com/bling/vim-airline)
-  * [vim-atom-dark](https://github.com/ap/vim-css-colo://github.com/gosukiwi/vim-atom-dark)
   * [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace)
   * [vim-css-color](https://github.com/ap/vim-css-color)
   * [vim-fugitive](https://github.com/tpope/vim-fugitive)
@@ -78,6 +77,7 @@ python -m pip install flake8
   * [vim-jsdoc](https://github.com/heavenshell/vim-jsdoc)
   * [vim-jsx](https://github.com/mxw/vim-jsx)
   * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
+  * [vim-one](https://github.com/rakr/vim-one)
   * [vim-sass-lint](https://github.com/gcorne/vim-sass-lint)
   * [vim-surround](https://github.com/tpope/vim-surround)
   * [vim-vue](https://github.com/posva/vim-vue)
@@ -85,6 +85,7 @@ python -m pip install flake8
 ## Here are some more plugins that I have used previously:
   * [ack](https://github.com/mileszs/ack.vim)
   * [ctrlp](https://github.com/kien/ctrlp.vim)
+  * [vim-atom-dark](https://github.com/ap/vim-css-colo://github.com/gosukiwi/vim-atom-dark)
   * [vim-jade](https://github.com/digitaltoad/vim-jade)
   * [vim-pug](https://github.com/digitaltoad/vim-pug)
   * [vim-sensible](https://github.com/tpope/vim-sensible)
