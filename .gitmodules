@@ -88,3 +88,6 @@
 [submodule "pack/plugins/start/ctrlp.vim"]
 	path = pack/plugins/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "pack/plugins/start/vim-one"]
+	path = pack/plugins/start/vim-one
+	url = https://github.com/rakr/vim-one.git
