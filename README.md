@@ -41,13 +41,6 @@ git commit-m "Removed submodule"
 rm -rf .git/modules/<path_to_submodule>
 ```
 
-Move the colors file into the colors directory:
-```bash
-Get updates for the colors files [here](https://github.com/gosukiwi/vim-atom-dark)
-mkdir ~/.vim/colors
-cp ~/.vim/pack/plugins/opt/vim-atom-dark/colors/* .~/.vim/colors/
-```
-
 Install flake8:
 ```bash
 python -m pip install flake8
