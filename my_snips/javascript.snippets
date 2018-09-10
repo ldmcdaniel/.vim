@@ -49,9 +49,13 @@ export default $1;
 endsnippet
 
 snippet action "React action"
-export function $1($2) {
+/**
+ * $1
+ * @return {Object} The action object
+ */
+export function $2($3) {
 	return {
-		type: $3,$0
+		type: $4,$0
 	};
 }
 endsnippet
@@ -144,7 +148,9 @@ describe("$1", () => {
 
 	it("Should $2", () => {
 		// define starting state
-		const startingState = {$3};
+		const startingState = {
+			$3
+		};
 
 		// define action
 		const myAction = {
@@ -152,32 +158,11 @@ describe("$1", () => {
 		};
 		
 		// pass the starting state and action into the reducer to get the result
-		const result = $5;
+		const result = $5(startingState, myAction);
 		
 		// assert the value of the output is as expected
 		assert.deepEqual(result, {
-			$6
-		});
-		
-		// assert that the initial state was not mutated
-		assert.notDeepEqual(result, startingState);
-	});
-
-	it("Should $7", () => {
-		// define starting state
-		const startingState = {$8};
-
-		// define action
-		const myAction = {
-			type: $9,
-		};
-		
-		// pass the starting state and action into the reducer to get the result
-		const result = audience(startingState, myAction);
-		
-		// assert the value of the output is as expected
-		assert.deepEqual(result, {
-			$10
+			$3$0
 		});
 		
 		// assert that the initial state was not mutated
