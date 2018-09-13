@@ -126,10 +126,10 @@ endsnippet
 
 snippet testaction "Test react action"
 describe("$1", () => {
-	it("should contain the expected type$2", () => {
-		assert.deepEqual($1, {
-			type: $3,
-		});
+	it("should return an object in the expected shape", () => {
+		const result = $2();
+		const { type } = result;
+		assert.strictEqual(type, '$3');
 	});
 });
 endsnippet
