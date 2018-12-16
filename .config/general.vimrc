@@ -36,4 +36,4 @@ filetype plugin indent on
 syntax enable                   "Detect the file type and get color in your files
 
 colorscheme atom-dark
-set background=light
+set background=dark
